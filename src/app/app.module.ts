@@ -16,7 +16,7 @@ import { AuthModule } from './auth/auth.module';
     BrowserModule,
     AppRoutingModule,
     AuthModule,
-    StoreModule.forRoot([]), // this is registering our app module in NGRX
+    StoreModule.forRoot({}), // this is registering our app module in NGRX
     StoreDevtoolsModule.instrument({
       maxAge: 25, // Retains last 25 states
       logOnly: environment.production, // Restrict extension to log-only mode
