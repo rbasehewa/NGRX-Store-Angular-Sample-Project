@@ -15,7 +15,8 @@ const routes = [
 ]
 
 @NgModule({
-    imports: [CommonModule, RouterModule.forChild(routes), ReactiveFormsModule, StoreModule.forFeature('auth',reducers)],
+    imports: [CommonModule, RouterModule.forChild(routes), ReactiveFormsModule, 
+        StoreModule.forFeature('auth',reducers)], // when the state is loading this func will trigger
     declarations:[RegisterComponent]
 })
 export class AuthModule{}
