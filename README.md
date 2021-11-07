@@ -25,3 +25,4 @@ after clonnig the project, you need to setup the project on you machine.
 - run the project
 
   - npm start
+  - progress Store/ redux
